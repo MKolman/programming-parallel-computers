@@ -4,7 +4,8 @@
 void step(float*, const float*, int);
 
 int main() {
-    constexpr int n = 2000;
+    int n;
+    std::cin >> n;
     std::vector<float> d(n*n);
     for (int i = 0; i < n; ++i) {
         for (int j = 0; j < n; ++j) {

@@ -1,7 +1,7 @@
-#include<algorithm>
-#include<limits>
+#include <algorithm>
+#include <limits>
 
-void step(float* r, const float* d, int n) {
+void step(float *r, const float *d, int n) {
     #pragma omp parallel for
     for (int i = 0; i < n; ++i) {
         for (int j = 0; j < n; ++j) {
