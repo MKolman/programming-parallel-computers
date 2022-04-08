@@ -15,15 +15,15 @@ static float8_t* float8_alloc(std::size_t n) {
     return (float8_t*)tmp;
 }
 
-constexpr float infty = std::numeric_limits<float>::infinity();
+constexpr float inf = std::numeric_limits<float>::infinity();
 
-constexpr float8_t f8infty {
-    infty, infty, infty, infty,
-    infty, infty, infty, infty
+constexpr float8_t f8inf {
+    inf, inf, inf, inf,
+    inf, inf, inf, inf
 };
 
 static inline float hmin8(float8_t vv) {
-    float v = infty;
+    float v = inf;
     for (int i = 0; i < 8; ++i) {
         v = std::min(vv[i], v);
     }
@@ -50,8 +50,8 @@ void step(float* r, const float* d_, int n) {
         for (int ka = 0; ka < na; ++ka) {
             for (int kb = 0; kb < nb; ++kb) {
                 int i = ka * nb + kb;
-                vd[na*j + ka][kb] = i < n ? d_[n*j + i] : infty;
-                vt[na*j + ka][kb] = i < n ? d_[n*i + j] : infty;
+                vd[na*j + ka][kb] = i < n ? d_[n*j + i] : inf;
+                vt[na*j + ka][kb] = i < n ? d_[n*i + j] : inf;
             }
         }
     }
@@ -59,7 +59,7 @@ void step(float* r, const float* d_, int n) {
     #pragma omp parallel for
     for (int i = 0; i < n; ++i) {
         for (int j = 0; j < n; ++j) {
-            float8_t vv = f8infty;
+            float8_t vv = f8inf;
             for (int ka = 0; ka < na; ++ka) {
                 float8_t x = vd[na*i + ka];
                 float8_t y = vt[na*j + ka];

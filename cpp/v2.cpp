@@ -1,7 +1,6 @@
-#include<algorithm>
-#include<limits>
-
-constexpr float infty = std::numeric_limits<float>::infinity();
+#include <algorithm>
+#include <limits>
+float inf = std::numeric_limits<float>::infinity();
 
 void step(float* r, const float* d_, int n) {
     constexpr int nb = 4;
@@ -9,9 +8,9 @@ void step(float* r, const float* d_, int n) {
     int nab = na*nb;
 
     // input data, padded
-    std::vector<float> d(n*nab, infty);
+    std::vector<float> d(n*nab, inf);
     // input data, transposed, padded
-    std::vector<float> t(n*nab, infty);
+    std::vector<float> t(n*nab, inf);
 
     #pragma omp parallel for
     for (int j = 0; j < n; ++j) {
@@ -30,7 +29,7 @@ void step(float* r, const float* d_, int n) {
             // vv[3] = result for k = 3, 7, 11, ...
             float vv[nb];
             for (int kb = 0; kb < nb; ++kb) {
-                vv[kb] = infty;
+                vv[kb] = inf;
             }
             for (int ka = 0; ka < na; ++ka) {
                 for (int kb = 0; kb < nb; ++kb) {
