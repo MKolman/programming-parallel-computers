@@ -1,0 +1,889 @@
+g++ -g -O3 -march=native -std=c++17 test.cpp v0.cpp -o bin/test_v0
+=== Running bin/test_v0 ===
+
+N=2
+
+real	0m0,001s
+user	0m0,002s
+sys	0m0,000s
+
+N=4
+
+real	0m0,001s
+user	0m0,001s
+sys	0m0,000s
+
+N=8
+
+real	0m0,001s
+user	0m0,001s
+sys	0m0,000s
+
+N=16
+
+real	0m0,001s
+user	0m0,001s
+sys	0m0,000s
+
+N=32
+
+real	0m0,001s
+user	0m0,000s
+sys	0m0,001s
+
+N=64
+
+real	0m0,001s
+user	0m0,001s
+sys	0m0,000s
+
+N=128
+
+real	0m0,004s
+user	0m0,004s
+sys	0m0,000s
+
+N=256
+
+real	0m0,022s
+user	0m0,022s
+sys	0m0,000s
+
+N=512
+
+real	0m0,191s
+user	0m0,187s
+sys	0m0,003s
+
+N=1024
+
+real	0m3,318s
+user	0m3,307s
+sys	0m0,010s
+
+N=2048
+
+real	0m35,378s
+user	0m35,342s
+sys	0m0,017s
+
+N=4096
+
+real	8m43,423s
+user	8m42,803s
+sys	0m0,089s
+g++ -g -O3 -march=native -std=c++17 test.cpp v1.cpp -o bin/test_v1
+=== Running bin/test_v1 ===
+
+N=2
+
+real	0m0,002s
+user	0m0,001s
+sys	0m0,000s
+
+N=4
+
+real	0m0,001s
+user	0m0,001s
+sys	0m0,000s
+
+N=8
+
+real	0m0,001s
+user	0m0,001s
+sys	0m0,000s
+
+N=16
+
+real	0m0,001s
+user	0m0,001s
+sys	0m0,000s
+
+N=32
+
+real	0m0,001s
+user	0m0,001s
+sys	0m0,000s
+
+N=64
+
+real	0m0,002s
+user	0m0,001s
+sys	0m0,000s
+
+N=128
+
+real	0m0,004s
+user	0m0,003s
+sys	0m0,000s
+
+N=256
+
+real	0m0,023s
+user	0m0,023s
+sys	0m0,000s
+
+N=512
+
+real	0m0,192s
+user	0m0,191s
+sys	0m0,000s
+
+N=1024
+
+real	0m3,332s
+user	0m3,326s
+sys	0m0,004s
+
+N=2048
+
+real	0m34,513s
+user	0m34,432s
+sys	0m0,025s
+
+N=4096
+
+real	10m14,177s
+user	10m13,752s
+sys	0m0,077s
+g++ -g -O3 -march=native -std=c++17 test.cpp v2.cpp -o bin/test_v2
+=== Running bin/test_v2 ===
+
+N=2
+
+real	0m0,002s
+user	0m0,001s
+sys	0m0,000s
+
+N=4
+
+real	0m0,001s
+user	0m0,001s
+sys	0m0,000s
+
+N=8
+
+real	0m0,001s
+user	0m0,001s
+sys	0m0,000s
+
+N=16
+
+real	0m0,001s
+user	0m0,001s
+sys	0m0,000s
+
+N=32
+
+real	0m0,001s
+user	0m0,001s
+sys	0m0,000s
+
+N=64
+
+real	0m0,001s
+user	0m0,001s
+sys	0m0,000s
+
+N=128
+
+real	0m0,002s
+user	0m0,002s
+sys	0m0,000s
+
+N=256
+
+real	0m0,008s
+user	0m0,005s
+sys	0m0,003s
+
+N=512
+
+real	0m0,056s
+user	0m0,053s
+sys	0m0,003s
+
+N=1024
+
+real	0m0,431s
+user	0m0,427s
+sys	0m0,004s
+
+N=2048
+
+real	0m4,862s
+user	0m4,831s
+sys	0m0,024s
+
+N=4096
+
+real	0m32,775s
+user	0m32,661s
+sys	0m0,087s
+g++ -g -O3 -march=native -std=c++17 test.cpp v3.cpp -o bin/test_v3
+=== Running bin/test_v3 ===
+
+N=2
+
+real	0m0,002s
+user	0m0,002s
+sys	0m0,000s
+
+N=4
+
+real	0m0,001s
+user	0m0,001s
+sys	0m0,000s
+
+N=8
+
+real	0m0,001s
+user	0m0,000s
+sys	0m0,001s
+
+N=16
+
+real	0m0,001s
+user	0m0,001s
+sys	0m0,000s
+
+N=32
+
+real	0m0,001s
+user	0m0,001s
+sys	0m0,000s
+
+N=64
+
+real	0m0,001s
+user	0m0,000s
+sys	0m0,001s
+
+N=128
+
+real	0m0,002s
+user	0m0,002s
+sys	0m0,000s
+
+N=256
+
+real	0m0,004s
+user	0m0,004s
+sys	0m0,000s
+
+N=512
+
+real	0m0,023s
+user	0m0,019s
+sys	0m0,003s
+
+N=1024
+
+real	0m0,173s
+user	0m0,172s
+sys	0m0,000s
+
+N=2048
+
+real	0m2,053s
+user	0m2,025s
+sys	0m0,024s
+
+N=4096
+
+real	0m17,619s
+user	0m17,514s
+sys	0m0,087s
+g++ -g -O3 -march=native -std=c++17 test.cpp v4.cpp -o bin/test_v4
+=== Running bin/test_v4 ===
+
+N=2
+
+real	0m0,002s
+user	0m0,002s
+sys	0m0,000s
+
+N=4
+
+real	0m0,001s
+user	0m0,001s
+sys	0m0,000s
+
+N=8
+
+real	0m0,001s
+user	0m0,001s
+sys	0m0,000s
+
+N=16
+
+real	0m0,001s
+user	0m0,001s
+sys	0m0,000s
+
+N=32
+
+real	0m0,001s
+user	0m0,001s
+sys	0m0,000s
+
+N=64
+
+real	0m0,001s
+user	0m0,001s
+sys	0m0,000s
+
+N=128
+
+real	0m0,002s
+user	0m0,000s
+sys	0m0,001s
+
+N=256
+
+real	0m0,003s
+user	0m0,003s
+sys	0m0,000s
+
+N=512
+
+real	0m0,011s
+user	0m0,008s
+sys	0m0,003s
+
+N=1024
+
+real	0m0,068s
+user	0m0,061s
+sys	0m0,007s
+
+N=2048
+
+real	0m0,612s
+user	0m0,578s
+sys	0m0,033s
+
+N=4096
+
+real	0m5,135s
+user	0m5,036s
+sys	0m0,083s
+g++ -g -O3 -march=native -std=c++17 test.cpp v5.cpp -o bin/test_v5
+=== Running bin/test_v5 ===
+
+N=2
+
+real	0m0,002s
+user	0m0,001s
+sys	0m0,000s
+
+N=4
+
+real	0m0,001s
+user	0m0,001s
+sys	0m0,000s
+
+N=8
+
+real	0m0,001s
+user	0m0,001s
+sys	0m0,000s
+
+N=16
+
+real	0m0,001s
+user	0m0,000s
+sys	0m0,001s
+
+N=32
+
+real	0m0,001s
+user	0m0,001s
+sys	0m0,000s
+
+N=64
+
+real	0m0,001s
+user	0m0,000s
+sys	0m0,001s
+
+N=128
+
+real	0m0,002s
+user	0m0,001s
+sys	0m0,000s
+
+N=256
+
+real	0m0,003s
+user	0m0,000s
+sys	0m0,003s
+
+N=512
+
+real	0m0,011s
+user	0m0,008s
+sys	0m0,004s
+
+N=1024
+
+real	0m0,062s
+user	0m0,055s
+sys	0m0,007s
+
+N=2048
+
+real	0m0,616s
+user	0m0,580s
+sys	0m0,033s
+
+N=4096
+
+real	0m4,046s
+user	0m3,947s
+sys	0m0,087s
+g++ -g -O3 -march=native -std=c++17 -fopenmp test.cpp v0.cpp -o bin/test_v0_th
+=== Running bin/test_v0_th ===
+
+N=2
+
+real	0m0,002s
+user	0m0,003s
+sys	0m0,000s
+
+N=4
+
+real	0m0,002s
+user	0m0,001s
+sys	0m0,001s
+
+N=8
+
+real	0m0,002s
+user	0m0,002s
+sys	0m0,000s
+
+N=16
+
+real	0m0,001s
+user	0m0,002s
+sys	0m0,000s
+
+N=32
+
+real	0m0,002s
+user	0m0,002s
+sys	0m0,000s
+
+N=64
+
+real	0m0,002s
+user	0m0,003s
+sys	0m0,000s
+
+N=128
+
+real	0m0,002s
+user	0m0,000s
+sys	0m0,005s
+
+N=256
+
+real	0m0,005s
+user	0m0,031s
+sys	0m0,000s
+
+N=512
+
+real	0m0,038s
+user	0m0,290s
+sys	0m0,000s
+
+N=1024
+
+real	0m0,486s
+user	0m3,662s
+sys	0m0,010s
+
+N=2048
+
+real	0m10,384s
+user	1m21,222s
+sys	0m0,043s
+
+N=4096
+
+real	2m8,043s
+user	16m50,912s
+sys	0m0,329s
+g++ -g -O3 -march=native -std=c++17 -fopenmp test.cpp v1.cpp -o bin/test_v1_th
+=== Running bin/test_v1_th ===
+
+N=2
+
+real	0m0,002s
+user	0m0,000s
+sys	0m0,003s
+
+N=4
+
+real	0m0,002s
+user	0m0,003s
+sys	0m0,000s
+
+N=8
+
+real	0m0,002s
+user	0m0,003s
+sys	0m0,000s
+
+N=16
+
+real	0m0,001s
+user	0m0,002s
+sys	0m0,000s
+
+N=32
+
+real	0m0,002s
+user	0m0,000s
+sys	0m0,002s
+
+N=64
+
+real	0m0,002s
+user	0m0,003s
+sys	0m0,000s
+
+N=128
+
+real	0m0,002s
+user	0m0,006s
+sys	0m0,000s
+
+N=256
+
+real	0m0,005s
+user	0m0,031s
+sys	0m0,000s
+
+N=512
+
+real	0m0,038s
+user	0m0,286s
+sys	0m0,000s
+
+N=1024
+
+real	0m0,528s
+user	0m3,763s
+sys	0m0,007s
+
+N=2048
+
+real	0m10,583s
+user	1m22,738s
+sys	0m0,020s
+
+N=4096
+
+real	2m19,823s
+user	18m28,376s
+sys	0m0,371s
+g++ -g -O3 -march=native -std=c++17 -fopenmp test.cpp v2.cpp -o bin/test_v2_th
+=== Running bin/test_v2_th ===
+
+N=2
+
+real	0m0,002s
+user	0m0,003s
+sys	0m0,000s
+
+N=4
+
+real	0m0,002s
+user	0m0,002s
+sys	0m0,000s
+
+N=8
+
+real	0m0,002s
+user	0m0,000s
+sys	0m0,002s
+
+N=16
+
+real	0m0,001s
+user	0m0,002s
+sys	0m0,000s
+
+N=32
+
+real	0m0,001s
+user	0m0,002s
+sys	0m0,000s
+
+N=64
+
+real	0m0,002s
+user	0m0,000s
+sys	0m0,002s
+
+N=128
+
+real	0m0,002s
+user	0m0,000s
+sys	0m0,004s
+
+N=256
+
+real	0m0,004s
+user	0m0,017s
+sys	0m0,000s
+
+N=512
+
+real	0m0,016s
+user	0m0,108s
+sys	0m0,003s
+
+N=1024
+
+real	0m0,113s
+user	0m0,847s
+sys	0m0,003s
+
+N=2048
+
+real	0m1,096s
+user	0m8,274s
+sys	0m0,030s
+
+N=4096
+
+real	0m8,343s
+user	1m5,268s
+sys	0m0,158s
+g++ -g -O3 -march=native -std=c++17 -fopenmp test.cpp v3.cpp -o bin/test_v3_th
+=== Running bin/test_v3_th ===
+
+N=2
+
+real	0m0,002s
+user	0m0,003s
+sys	0m0,000s
+
+N=4
+
+real	0m0,002s
+user	0m0,003s
+sys	0m0,000s
+
+N=8
+
+real	0m0,001s
+user	0m0,002s
+sys	0m0,000s
+
+N=16
+
+real	0m0,002s
+user	0m0,003s
+sys	0m0,000s
+
+N=32
+
+real	0m0,002s
+user	0m0,002s
+sys	0m0,000s
+
+N=64
+
+real	0m0,002s
+user	0m0,003s
+sys	0m0,000s
+
+N=128
+
+real	0m0,002s
+user	0m0,003s
+sys	0m0,000s
+
+N=256
+
+real	0m0,002s
+user	0m0,007s
+sys	0m0,000s
+
+N=512
+
+real	0m0,006s
+user	0m0,030s
+sys	0m0,004s
+
+N=1024
+
+real	0m0,054s
+user	0m0,390s
+sys	0m0,007s
+
+N=2048
+
+real	0m0,488s
+user	0m3,766s
+sys	0m0,023s
+
+N=4096
+
+real	0m5,101s
+user	0m39,600s
+sys	0m0,142s
+g++ -g -O3 -march=native -std=c++17 -fopenmp test.cpp v4.cpp -o bin/test_v4_th
+=== Running bin/test_v4_th ===
+
+N=2
+
+real	0m0,002s
+user	0m0,000s
+sys	0m0,003s
+
+N=4
+
+real	0m0,002s
+user	0m0,002s
+sys	0m0,000s
+
+N=8
+
+real	0m0,002s
+user	0m0,000s
+sys	0m0,002s
+
+N=16
+
+real	0m0,002s
+user	0m0,002s
+sys	0m0,000s
+
+N=32
+
+real	0m0,002s
+user	0m0,000s
+sys	0m0,002s
+
+N=64
+
+real	0m0,002s
+user	0m0,003s
+sys	0m0,000s
+
+N=128
+
+real	0m0,002s
+user	0m0,000s
+sys	0m0,003s
+
+N=256
+
+real	0m0,002s
+user	0m0,000s
+sys	0m0,006s
+
+N=512
+
+real	0m0,005s
+user	0m0,022s
+sys	0m0,000s
+
+N=1024
+
+real	0m0,022s
+user	0m0,122s
+sys	0m0,017s
+
+N=2048
+
+real	0m0,153s
+user	0m1,094s
+sys	0m0,020s
+
+N=4096
+
+real	0m1,489s
+user	0m10,961s
+sys	0m0,113s
+g++ -g -O3 -march=native -std=c++17 -fopenmp test.cpp v5.cpp -o bin/test_v5_th
+=== Running bin/test_v5_th ===
+
+N=2
+
+real	0m0,002s
+user	0m0,003s
+sys	0m0,000s
+
+N=4
+
+real	0m0,002s
+user	0m0,002s
+sys	0m0,000s
+
+N=8
+
+real	0m0,002s
+user	0m0,002s
+sys	0m0,000s
+
+N=16
+
+real	0m0,002s
+user	0m0,002s
+sys	0m0,000s
+
+N=32
+
+real	0m0,002s
+user	0m0,002s
+sys	0m0,000s
+
+N=64
+
+real	0m0,002s
+user	0m0,003s
+sys	0m0,000s
+
+N=128
+
+real	0m0,002s
+user	0m0,003s
+sys	0m0,000s
+
+N=256
+
+real	0m0,002s
+user	0m0,005s
+sys	0m0,000s
+
+N=512
+
+real	0m0,005s
+user	0m0,000s
+sys	0m0,021s
+
+N=1024
+
+real	0m0,020s
+user	0m0,121s
+sys	0m0,004s
+
+N=2048
+
+real	0m0,146s
+user	0m1,032s
+sys	0m0,023s
+
+N=4096
+
+real	0m0,998s
+user	0m7,245s
+sys	0m0,116s
+g++     test.cpp test_all test_all_th   -o test

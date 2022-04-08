@@ -1,0 +1,462 @@
+g++ -g -O3 -march=native -std=c++17 test.cpp v0.cpp -o bin/test_v0
+=== Running bin/test_v0 ===
+
+N=2
+real 0.000168
+
+N=4
+real 0.000261
+
+N=8
+real 0.000572
+
+N=16
+real 0.002764
+
+N=32
+real 0.023609
+
+N=64
+real 0.231009
+
+N=128
+real 2.22643
+
+N=256
+real 21.099
+
+N=512
+real 190.034
+
+N=1024
+real 3294.78
+
+N=2048
+real 42854.5
+
+N=4096
+real 569456
+g++ -g -O3 -march=native -std=c++17 test.cpp v1.cpp -o bin/test_v1
+=== Running bin/test_v1 ===
+
+N=2
+real 0.000744
+
+N=4
+real 0.000751
+
+N=8
+real 0.001115
+
+N=16
+real 0.004395
+
+N=32
+real 0.027191
+
+N=64
+real 0.239489
+
+N=128
+real 2.2765
+
+N=256
+real 22.3851
+
+N=512
+real 191.293
+
+N=1024
+real 3299.69
+
+N=2048
+real 42634.3
+
+N=4096
+real 622689
+g++ -g -O3 -march=native -std=c++17 test.cpp v2.cpp -o bin/test_v2
+=== Running bin/test_v2 ===
+
+N=2
+real 0.001469
+
+N=4
+real 0.001427
+
+N=8
+real 0.001696
+
+N=16
+real 0.003503
+
+N=32
+real 0.017361
+
+N=64
+real 0.114726
+
+N=128
+real 0.917896
+
+N=256
+real 6.83004
+
+N=512
+real 54.2135
+
+N=1024
+real 427.347
+
+N=2048
+real 4816.62
+
+N=4096
+real 33025.1
+g++ -g -O3 -march=native -std=c++17 test.cpp v3.cpp -o bin/test_v3
+=== Running bin/test_v3 ===
+
+N=2
+real 0.00265
+
+N=4
+real 0.002368
+
+N=8
+real 0.001558
+
+N=16
+real 0.002813
+
+N=32
+real 0.010687
+
+N=64
+real 0.052219
+
+N=128
+real 0.313822
+
+N=256
+real 2.36088
+
+N=512
+real 19.9983
+
+N=1024
+real 167.37
+
+N=2048
+real 2136.74
+
+N=4096
+real 17411
+g++ -g -O3 -march=native -std=c++17 test.cpp v4.cpp -o bin/test_v4
+=== Running bin/test_v4 ===
+
+N=2
+real 0.002867
+
+N=4
+real 0.002831
+
+N=8
+real 0.00198
+
+N=16
+real 0.004578
+
+N=32
+real 0.01043
+
+N=64
+real 0.042789
+
+N=128
+real 0.220214
+
+N=256
+real 1.22979
+
+N=512
+real 8.23687
+
+N=1024
+real 62.7435
+
+N=2048
+real 596.811
+
+N=4096
+real 4950.47
+g++ -g -O3 -march=native -std=c++17 test.cpp v5.cpp -o bin/test_v5
+=== Running bin/test_v5 ===
+
+N=2
+real 0.002956
+
+N=4
+real 0.002649
+
+N=8
+real 0.001538
+
+N=16
+real 0.002323
+
+N=32
+real 0.007242
+
+N=64
+real 0.03127
+
+N=128
+real 0.16663
+
+N=256
+real 1.09014
+
+N=512
+real 7.75623
+
+N=1024
+real 55.0055
+
+N=2048
+real 600.618
+
+N=4096
+real 3982.75
+g++ -g -O3 -march=native -std=c++17 -fopenmp test.cpp v0.cpp -o bin/test_v0_th
+=== Running bin/test_v0_th ===
+
+N=2
+real 0.162403
+
+N=4
+real 0.145361
+
+N=8
+real 0.16023
+
+N=16
+real 0.139934
+
+N=32
+real 0.161343
+
+N=64
+real 0.217089
+
+N=128
+real 0.52027
+
+N=256
+real 3.6263
+
+N=512
+real 34.1671
+
+N=1024
+real 512.359
+
+N=2048
+real 10534.7
+
+N=4096
+real 129236
+g++ -g -O3 -march=native -std=c++17 -fopenmp test.cpp v1.cpp -o bin/test_v1_th
+=== Running bin/test_v1_th ===
+
+N=2
+real 0.181257
+
+N=4
+real 0.157624
+
+N=8
+real 0.169031
+
+N=16
+real 0.163787
+
+N=32
+real 0.154591
+
+N=64
+real 0.212195
+
+N=128
+real 0.534946
+
+N=256
+real 3.83874
+
+N=512
+real 36.5447
+
+N=1024
+real 484.138
+
+N=2048
+real 10678.1
+
+N=4096
+real 143246
+g++ -g -O3 -march=native -std=c++17 -fopenmp test.cpp v2.cpp -o bin/test_v2_th
+=== Running bin/test_v2_th ===
+
+N=2
+real 0.168096
+
+N=4
+real 0.179602
+
+N=8
+real 0.122401
+
+N=16
+real 0.139131
+
+N=32
+real 0.149328
+
+N=64
+real 0.192395
+
+N=128
+real 0.393184
+
+N=256
+real 2.03402
+
+N=512
+real 14.0609
+
+N=1024
+real 107.671
+
+N=2048
+real 1110.13
+
+N=4096
+real 8296.26
+g++ -g -O3 -march=native -std=c++17 -fopenmp test.cpp v3.cpp -o bin/test_v3_th
+=== Running bin/test_v3_th ===
+
+N=2
+real 0.196599
+
+N=4
+real 0.156343
+
+N=8
+real 0.171821
+
+N=16
+real 0.167758
+
+N=32
+real 0.161503
+
+N=64
+real 0.175236
+
+N=128
+real 0.263594
+
+N=256
+real 0.658212
+
+N=512
+real 3.85828
+
+N=1024
+real 44.5787
+
+N=2048
+real 476.782
+
+N=4096
+real 5166.03
+g++ -g -O3 -march=native -std=c++17 -fopenmp test.cpp v4.cpp -o bin/test_v4_th
+=== Running bin/test_v4_th ===
+
+N=2
+real 0.163437
+
+N=4
+real 0.164545
+
+N=8
+real 0.135368
+
+N=16
+real 0.161344
+
+N=32
+real 0.165116
+
+N=64
+real 0.195532
+
+N=128
+real 0.235295
+
+N=256
+real 0.526514
+
+N=512
+real 2.2938
+
+N=1024
+real 15.8285
+
+N=2048
+real 137.958
+
+N=4096
+real 1405.19
+g++ -g -O3 -march=native -std=c++17 -fopenmp test.cpp v5.cpp -o bin/test_v5_th
+=== Running bin/test_v5_th ===
+
+N=2
+real 0.151112
+
+N=4
+real 0.16109
+
+N=8
+real 0.154809
+
+N=16
+real 0.153611
+
+N=32
+real 0.159655
+
+N=64
+real 0.17095
+
+N=128
+real 0.256893
+
+N=256
+real 0.473412
+
+N=512
+real 2.15523
+
+N=1024
+real 14.2904
+
+N=2048
+real 126.85
+
+N=4096
+real 933.279
+g++     test.cpp test_all test_all_th   -o test
+/usr/bin/ld: cannot find test_all: No such file or directory
+/usr/bin/ld: cannot find test_all_th: No such file or directory
+collect2: error: ld returned 1 exit status
+make: *** [<builtin>: test] Error 1
+rm bin/test_v5_th bin/test_v0_th bin/test_v4 bin/test_v5 bin/test_v3 bin/test_v3_th bin/test_v0 bin/test_v1 bin/test_v4_th bin/test_v2_th bin/test_v2 bin/test_v1_th

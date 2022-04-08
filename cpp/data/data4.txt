@@ -1,0 +1,461 @@
+make[1]: Entering directory '/home/maks/Documents/polyglot-parallel/cpp'
+=== Running bin/test_v0 ===
+
+N=2
+real 0.000163
+
+N=4
+real 0.000291
+
+N=8
+real 0.000564
+
+N=16
+real 0.003241
+
+N=32
+real 0.027619
+
+N=64
+real 0.26885
+
+N=128
+real 2.36701
+
+N=256
+real 21.5817
+
+N=512
+real 189.109
+
+N=1024
+real 3233.44
+
+N=2048
+real 34308.1
+
+N=4096
+real 569967
+=== Running bin/test_v1 ===
+
+N=2
+real 0.000669
+
+N=4
+real 0.000764
+
+N=8
+real 0.001205
+
+N=16
+real 0.004129
+
+N=32
+real 0.027204
+
+N=64
+real 0.236734
+
+N=128
+real 2.27695
+
+N=256
+real 21.2446
+
+N=512
+real 182.573
+
+N=1024
+real 1511.14
+
+N=2048
+real 12391.9
+
+N=4096
+real 99845.9
+g++ -g -O3 -march=native -std=c++17 test.cpp v2.cpp -o bin/test_v2
+=== Running bin/test_v2 ===
+
+N=2
+real 0.00164
+
+N=4
+real 0.001472
+
+N=8
+real 0.001815
+
+N=16
+real 0.003427
+
+N=32
+real 0.017468
+
+N=64
+real 0.115952
+
+N=128
+real 0.918541
+
+N=256
+real 6.8599
+
+N=512
+real 53.4867
+
+N=1024
+real 426.242
+
+N=2048
+real 4756.01
+
+N=4096
+real 32856.8
+g++ -g -O3 -march=native -std=c++17 test.cpp v3.cpp -o bin/test_v3
+=== Running bin/test_v3 ===
+
+N=2
+real 0.002363
+
+N=4
+real 0.002664
+
+N=8
+real 0.00154
+
+N=16
+real 0.002839
+
+N=32
+real 0.010601
+
+N=64
+real 0.052827
+
+N=128
+real 0.317
+
+N=256
+real 2.35803
+
+N=512
+real 20.4292
+
+N=1024
+real 168.524
+
+N=2048
+real 2059.13
+
+N=4096
+real 17699.6
+g++ -g -O3 -march=native -std=c++17 test.cpp v4.cpp -o bin/test_v4
+=== Running bin/test_v4 ===
+
+N=2
+real 0.002854
+
+N=4
+real 0.002819
+
+N=8
+real 0.001832
+
+N=16
+real 0.004343
+
+N=32
+real 0.010076
+
+N=64
+real 0.042194
+
+N=128
+real 0.208176
+
+N=256
+real 1.23171
+
+N=512
+real 8.1073
+
+N=1024
+real 62.2118
+
+N=2048
+real 594.315
+
+N=4096
+real 5000.39
+g++ -g -O3 -march=native -std=c++17 test.cpp v5.cpp -o bin/test_v5
+=== Running bin/test_v5 ===
+
+N=2
+real 0.002763
+
+N=4
+real 0.002663
+
+N=8
+real 0.00158
+
+N=16
+real 0.002348
+
+N=32
+real 0.007779
+
+N=64
+real 0.030827
+
+N=128
+real 0.165642
+
+N=256
+real 1.09995
+
+N=512
+real 7.54831
+
+N=1024
+real 55.8228
+
+N=2048
+real 587.294
+
+N=4096
+real 3959.86
+g++ -g -O3 -march=native -std=c++17 -fopenmp test.cpp v0.cpp -o bin/test_v0_th
+=== Running bin/test_v0_th ===
+
+N=2
+real 0.247846
+
+N=4
+real 0.164245
+
+N=8
+real 0.155968
+
+N=16
+real 0.149903
+
+N=32
+real 0.164481
+
+N=64
+real 0.197163
+
+N=128
+real 0.519146
+
+N=256
+real 3.89409
+
+N=512
+real 38.38
+
+N=1024
+real 461.949
+
+N=2048
+real 10362.5
+
+N=4096
+real 129362
+g++ -g -O3 -march=native -std=c++17 -fopenmp test.cpp v1.cpp -o bin/test_v1_th
+=== Running bin/test_v1_th ===
+
+N=2
+real 0.189095
+
+N=4
+real 0.163711
+
+N=8
+real 0.175462
+
+N=16
+real 0.194657
+
+N=32
+real 0.259288
+
+N=64
+real 0.381344
+
+N=128
+real 1.04447
+
+N=256
+real 4.85777
+
+N=512
+real 24.7896
+
+N=1024
+real 197.461
+
+N=2048
+real 1706.36
+
+N=4096
+real 13963.3
+g++ -g -O3 -march=native -std=c++17 -fopenmp test.cpp v2.cpp -o bin/test_v2_th
+=== Running bin/test_v2_th ===
+
+N=2
+real 0.162158
+
+N=4
+real 0.153453
+
+N=8
+real 0.158461
+
+N=16
+real 0.157191
+
+N=32
+real 0.169682
+
+N=64
+real 0.198537
+
+N=128
+real 0.423549
+
+N=256
+real 2.02957
+
+N=512
+real 14.0018
+
+N=1024
+real 107.542
+
+N=2048
+real 1197.83
+
+N=4096
+real 9477.42
+g++ -g -O3 -march=native -std=c++17 -fopenmp test.cpp v3.cpp -o bin/test_v3_th
+=== Running bin/test_v3_th ===
+
+N=2
+real 0.304931
+
+N=4
+real 0.179131
+
+N=8
+real 0.157901
+
+N=16
+real 0.157758
+
+N=32
+real 0.165827
+
+N=64
+real 0.181301
+
+N=128
+real 0.26377
+
+N=256
+real 0.639014
+
+N=512
+real 3.90987
+
+N=1024
+real 44.3445
+
+N=2048
+real 488.664
+
+N=4096
+real 4990.4
+g++ -g -O3 -march=native -std=c++17 -fopenmp test.cpp v4.cpp -o bin/test_v4_th
+=== Running bin/test_v4_th ===
+
+N=2
+real 0.169981
+
+N=4
+real 0.156574
+
+N=8
+real 0.160566
+
+N=16
+real 0.137701
+
+N=32
+real 0.170482
+
+N=64
+real 0.181487
+
+N=128
+real 0.231836
+
+N=256
+real 0.52685
+
+N=512
+real 2.29399
+
+N=1024
+real 15.95
+
+N=2048
+real 136.831
+
+N=4096
+real 1445.15
+g++ -g -O3 -march=native -std=c++17 -fopenmp test.cpp v5.cpp -o bin/test_v5_th
+=== Running bin/test_v5_th ===
+
+N=2
+real 0.170926
+
+N=4
+real 0.160015
+
+N=8
+real 0.165174
+
+N=16
+real 0.166722
+
+N=32
+real 0.16394
+
+N=64
+real 0.176692
+
+N=128
+real 0.243075
+
+N=256
+real 0.484287
+
+N=512
+real 2.12297
+
+N=1024
+real 14.1599
+
+N=2048
+real 131.647
+
+N=4096
+real 933.068
+g++     test.cpp test_all test_all_th   -o test
+/usr/bin/ld: cannot find test_all: No such file or directory
+/usr/bin/ld: cannot find test_all_th: No such file or directory
+collect2: error: ld returned 1 exit status
+make[1]: *** [<builtin>: test] Error 1
+make[1]: Leaving directory '/home/maks/Documents/polyglot-parallel/cpp'
